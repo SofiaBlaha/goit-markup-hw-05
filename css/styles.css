@@ -678,10 +678,6 @@ input::placeholder {
     margin-bottom: 24px;
 }
 
-.text-private {
-
-}
-
 .visually-hidden {
  position: absolute;
  width: 1px;
@@ -710,11 +706,14 @@ input::placeholder {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD; 
+    background-color: #404bbf; 
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
+}
+
+input:checked + label .private-policy {
+  border: none;
+  fill: #F4F4FD;
 }
 
 .private-link {

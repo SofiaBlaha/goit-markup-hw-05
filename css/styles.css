@@ -750,6 +750,10 @@ input:checked + label .private-policy {
     color: #4d5ae5;
 }
 
+.icon-tick {
+    cursor: pointer;
+}
+
 .button-model {
     display: block;
     min-width: 169px;

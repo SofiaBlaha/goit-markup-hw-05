@@ -686,9 +686,11 @@ input::placeholder {
     fill: #2e2f42;;
 }
 
-.icon-person:hover,
-.icon-person:focus,
-.icon-person:active {
+.icon-person:hover {
+    fill: #4D5AE5;
+}
+
+.icon-person:focus {
     fill: #4D5AE5;
 }
 

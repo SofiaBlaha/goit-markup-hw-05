@@ -570,7 +570,7 @@ input::placeholder {
 }
 
 .icon-plane {
-    margin-right: 16px;
+    margin-left: 16px;
     fill: #ffffff
 }
 
@@ -641,7 +641,7 @@ input::placeholder {
 }
 
 .user-name:focus {
-    border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .user-name-2 {
@@ -656,7 +656,7 @@ input::placeholder {
 }
 
 .user-name-2:focus {
-    border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .user-name-3 {
@@ -671,7 +671,7 @@ input::placeholder {
 }
 
 .user-name-3:focus {
-    border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .icon-person {
